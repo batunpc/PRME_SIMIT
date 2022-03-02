@@ -5,14 +5,14 @@ const router = express.Router();
 router.get("/", (req, res) => {
   res.render("home", {
     layout: "main",
-    title: " Home | Simit Sustain",
+    title: " Home | Simit The Sustain",
   });
 });
 
 router.get("/about", (req, res) => {
   res.render("about", {
     layout: "main",
-    title: "About Us | Simit Sustain",
+    title: "About Us | Simit The Sustain",
   });
 });
 
