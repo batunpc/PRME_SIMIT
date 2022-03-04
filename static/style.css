@@ -8,3 +8,49 @@
 .card-body span > i {
   padding: 0 5px;
 }
+
+.hover-card {
+  position: relative;
+  width: 870px;
+  height: 500px;
+
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+
+.hover-card > * {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.hover-card__image {
+  display: block;
+}
+
+.hover-card__info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-center;
+  padding: 2em;
+  opacity: 0;
+  font-size: 40px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+
+  transition: opacity 300ms ease;
+}
+
+.hover-card:hover .hover-card__info,
+.hober-card:focus-within .hover-card__info {
+  opacity: 1;
+}
+
+.hover-card__info a {
+  color: rgb(255, 255, 255);
+  text-align: center;
+}

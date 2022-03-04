@@ -9,6 +9,13 @@ router.get("/", (req, res) => {
   });
 });
 
+router.get("/stories", (req, res) => {
+  res.render("stories", {
+    layout: "main",
+    title: "Success Stories | Simit The Sustain",
+  });
+});
+
 router.get("/about", (req, res) => {
   res.render("about", {
     layout: "main",

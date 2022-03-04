@@ -10,177 +10,165 @@
 </head>
 
 <body>
+  {{! HERO }}
 
-  <div class="d-flex container-fluid" lc-helper="background"
-    style="height: 40vh; background: rgba(0, 0, 0, 0) url(&quot;https://images.unsplash.com/photo-1559827291-72ee739d0d9a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1674&q=80;) no-repeat scroll center center / cover; --darkreader-inline-bgcolor: rgba(0, 0, 0, 0);"
-    data-darkreader-inline-bgcolor="">
-  </div>
-  <div class="container p-5 bg-light" style="margin-top:-100px; background-color:#35393b">
-    <div class="row">
-      <div class="col-md-4 text-center align-self-center">
-        <div class="lc-block border-end border-2">
+  <div class="position-relative overflow-hidden">
+    <div class="d-flex min-vh-100" lc-helper="video-bg">
+      <video style="z-index:1;object-fit: cover; object-position: 50% 50%;" class="position-absolute w-100 min-vh-100"
+        autoplay="" preload="" muted="" loop="" playsinline="">
+        <!-- adjust object-position to tweak cropping on mobile -->
+        <source
+          src="https://vod-progressive.akamaized.net/exp=1646376982~acl=%2Fvimeo-prod-skyfire-std-us%2F01%2F1845%2F13%2F334228232%2F1319574702.mp4~hmac=a307335eac82410aaef728e961746c1a3ff171870e9934663c9edae4ffa93992/vimeo-prod-skyfire-std-us/01/1845/13/334228232/1319574702.mp4?filename=Dandelion+-+23263.mp4"
+          type="video/mp4">
+      </video>
+      <div style="z-index:2" class="align-self-center text-center text-light col-md-8 offset-md-2">
+        <div class="lc-block mb-4">
           <div editable="rich">
-            <p class="display-4 text-secondary">WHY?
-              <i class="fa-solid fa-spa" style="color:green"></i>
-            </p>
+            <h1 class="display-4 fw-bolder">Connecting Sustainable Businesses</h1>
           </div>
-        </div><!-- /lc-block -->
-      </div><!-- /col -->
-      <div class="col-md-8">
+        </div>
+
         <div class="lc-block">
           <div editable="rich">
-            <p class="display-4">Connecting Sustainable Businesses</p>
-          </div>
-        </div><!-- /lc-block -->
-      </div><!-- /col -->
-    </div>
-    <div class="row">
-      <div class="col-md-9 offset-md-1">
-        <div class="lc-block mt-5">
-          <div editable="rich">
-            <p class="lead text-secondary">
-              We aim to combine the power of technology and sustainability to
-              bring together interested businesses, suppliers, manufacturers,
-              and consumers to become more conscious about their clothing
-              purchases.
+            <p class="lead"> We aim to combine the power of technology and sustainability to bring together interested
+              businesses, suppliers, manufacturers, and consumers to become more conscious about their clothing
+              purchases. </p>
+            <p class="lead">To make sure all products get sustainably produced from the source in safe working
+              conditions guaranteed for everyone involved.
             </p>
-            <p class="lead text-secondary">
-              To make sure all products get sustainably produced from the source
-              in safe working conditions guaranteed for everyone
-              involved.&nbsp;</p>
+
           </div>
-        </div><!-- /lc-block -->
-      </div><!-- /col -->
+        </div>
+
+        <div class="lc-block">
+          <svg onclick="$(this.closest('section').nextElementSibling.scrollIntoView({ behavior: 'smooth'  });"
+            width="4em" height="4em" viewBox="0 0 16 16" lc-helper="svg-icon" fill="currentColor"
+            xmlns="http://www.w3.org/2000/svg" style="--darkreader-inline-fill: currentColor;"
+            data-darkreader-inline-fill="">
+            <path fill-rule="evenodd" d="M8 15A7 7 0 1 0 8 1a7 7 0 0 0 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"></path>
+            <path fill-rule="evenodd"
+              d="M8 4a.5.5 0 0 1 .5.5v5.793l2.146-2.147a.5.5 0 0 1 .708.708l-3 3a.5.5 0 0 1-.708 0l-3-3a.5.5 0 1 1 .708-.708L7.5 10.293V4.5A.5.5 0 0 1 8 4z">
+            </path>
+          </svg>
+          <script async="" src="https://unpkg.com/smoothscroll-polyfill/dist/smoothscroll.min.js"></script>
+        </div>
+      </div>
     </div>
   </div>
+
+
+  {{! HERO }}
   <br />
+  <div class="container">
+    <div class="container-fluid p-0 overflow-hidden">
+      <div class="row g-0">
+        <div lc-helper="background" class="col-lg-6 order-lg-2"
+          style="min-height: 45vh; background-size: cover; background-position: center; background-image: linear-gradient(rgba(21, 19, 19, 0.47), rgba(22, 19, 19, 0.601)), url('https://images.unsplash.com/photo-1606901302392-ca613ab6abb7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80');">
 
-  <div class="container-fluid p-0 overflow-hidden">
-    <div class="row g-0">
-      <div lc-helper="background" class="col-lg-6 order-lg-2 "
-        style="min-height: 45vh; background-size: cover; background-position: center; background-image: url('https://images.unsplash.com/photo-1606901302392-ca613ab6abb7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80');">
-
-      </div>
-      <div class="col-lg-6 order-lg-1 my-auto px-5 py-5">
-        <div class="lc-block">
-          <div editable="rich">
-            <h1>Problem Analysis</h1>
-            <p class="lead">
-              The garment industry contributes to<mark> 2 – 8 % of the world’s pollution.</mark> Across the value
-              chain of the
-              industry, around 300 million people are employed worldwide, meaning that a lot of people’s livelihoods
-              depend on this industry.<br />
-              Moreover, underutilized clothes result around $100 billion worth of material
-              losses and is the cause of 9% of the annual microplastic release into the oceans <i>(UN Alliance of
-                Sustainable Fashion).</i>
-
-              There are inefficiencies in the value chain of the clothing industry in how products are sourced and
-              manufactured. There is no singular comprehensive marketplace or platform in the market that allows
-              sustainable producers and suppliers to find each other easily online and form partnerships or use each
-              other’s services.
-
-            </p>
-          </div>
         </div>
-      </div>
-    </div>
+        <div class="col-lg-6 order-lg-1 my-auto px-5 py-5">
+          <div class="lc-block">
+            <div editable="rich">
+              <h1>Monsters in our closets</h1>
+              <p class="lead">
+                The garment industry contributes to<mark>
+                  2 – 8 % of the world’s pollution.</mark>
+                Across the value chain of the industry, around 300 million
+                people are employed worldwide, meaning that a lot of people’s
+                livelihoods depend on this industry.<br />
+                Moreover, underutilized clothes result around $100 billion
+                worth of material losses and is the cause of 9% of the annual
+                microplastic release into the oceans
+                <i>(UN Alliance of Sustainable Fashion).</i>
 
-    <div class="row g-0">
-      <div lc-helper="background" class="col-lg-6"
-        style="min-height: 45vh; background-size: cover;background-position: center; background-image: url('https://images.unsplash.com/photo-1534709153997-d6659469f951?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2069&q=80');">
-      </div>
-      <div class="col-lg-6 my-auto px-5 py-5">
-        <div class="lc-block">
-          <div editable="rich">
-            <h1>Solution</h1>
-            <p class="lead">We have decided to create an <mark>online platform to connect sustainable producers and suppliers</mark>
-              together in the clothing industry to sustainably produce their products from the source. Having a website
-              that allows a business to directly connect with a sustainable supplier makes the process faster and easier
-              for everyone involved. </p>
-          </div>
-        </div>
-      </div>
-    </div>
+                There are inefficiencies in the value chain of the clothing
+                industry in how products are sourced and manufactured. There
+                is no singular comprehensive marketplace or platform in the
+                market that allows sustainable producers and suppliers to find
+                each other easily online and form partnerships or use each
+                other’s services.
 
-    <div class="row g-0">
-      <div lc-helper="background" class="col-lg-6 order-lg-2 "
-        style="min-height: 45vh; background-size: cover; background-position: center; background-image: url('https://images.unsplash.com/photo-1484100356142-db6ab6244067?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1667&q=80');">
-
-      </div>
-      <div class="col-lg-6 order-lg-1 my-auto px-5 py-5">
-        <div class="lc-block">
-          <div editable="rich">
-            <h1>Feasibility of the idea </h1>
-            <p class="lead">
-              As the world becomes more sustainability conscious, and consumers become more aware of their carbon
-              footprint, the need for more sustainable solutions will grow. A need for an integrated platform that is
-              built on <mark>sustainability being the core focus </mark>will become important.
-
-              The platform can be marketed to businesses and business schools as a lot of aspiring entrepreneurs come
-              out of business schools and colleges. It can double as an education platform where reports are published
-              and used by interested learners.
-            </p>
-            <ul class="list-group">
-
-              <li class="list-group-item list-group-item-success"><i class="fa-solid fa-arrow-right"></i> An easier
-                process of finding sustainable suppliers means that businesses will be more inclined to find sustainable
-                partners to get right into action.</li>
-              <li class="list-group-item list-group-item-primary"><i class="fa-solid fa-arrow-right"></i> There are vast
-                possibilities to scale the platform to become an online growing sustainable marketplace.</li>
-              <li class="list-group-item list-group-item-info"><i class="fa-solid fa-arrow-right"></i> As more demand
-                for sustainable products rise, the more others will be inclined to join in.</li>
-              <li class="list-group-item list-group-item-dark"><i class="fa-solid fa-arrow-right"></i> The platform can
-                double as an education platform for learners </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </div>
-    <br> <br>
-    <div class="d-flex justify-content-center">
-      <div class="card text-white bg-success mb-3" style="max-width: 77rem;">
-        <div class="row g-0">
-          <div class="col-md-4">
-            <img src="/static/images/cotton.jpg" class="img-fluid rounded-start" alt="...">
-          </div>
-          <div class="col-md-8">
-            <div class="card-body">
-              <h4 class="card-title">Sustainable practice case study </h4>
-              <figure class="bg-dark p-3 rounded" style="border-left: .25rem solid rgb(12, 99, 7);">
-                <blockquote class="blockquote pb-2">
-                  <p>
-                    “Many farms lack the knowledge, resources, or motivation to become 100% certified
-                    organic. Our belief is that the future of cotton, and the industry as a whole, rests on its ability
-                    to
-                    mobilize and lead the way in agriculture and sustainability. For this reason, we’ve embarked on a
-                    project to ensure 100% of our natural fibres are certified organic within the next five years.
-                    However,
-                    instead of simply neglecting the farms that don’t already have these practices in place, we’ll be
-                    working with each farm to set up these systems, so they too can participate in a more sustainable
-                    future.” </p>
-                </blockquote>
-                <figcaption class="blockquote-footer mb-0 font-italic">
-                  (Kotn, 2022)
-                </figcaption>
-              </figure>
-              <p class="card-text">
-                <i class="fa-solid fa-arrow-right"></i> Kotn is a Toronto based clothing business that is helping their
-                Egyptian cotton supplier to make the
-                switch to organic and sustainable within the next five years. Such statements on their website shows
-                great promise that it is possible for businesses to take the right approach and with the right mindset
-                it is possible to become sustainable within a realistic timeframe. Kotn also directly sources from the
-                farms to produce their products in a process known as direct trade cutting the middlemen out.
-                <br/> <br>
-                <i class="fa-solid fa-arrow-right"></i>
-                They are educating and empowering the farm to become independent and sustainable. Imagine the
-                possibilities if more such businesses and producers found each other and took the right initiatives?
               </p>
             </div>
           </div>
         </div>
       </div>
+
+      <div class="row g-0">
+        <div lc-helper="background" class="col-lg-6"
+          style="min-height: 45vh; background-size: cover;background-position: center; background-image: url('https://images.unsplash.com/photo-1534709153997-d6659469f951?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2069&q=80');">
+        </div>
+        <div class="col-lg-6 my-auto px-5 py-5">
+          <div class="lc-block">
+            <div editable="rich">
+              <h1>Let's fix it!</h1>
+              <p class="lead">We have decided to create an
+                <mark>online platform to connect sustainable producers and
+                  suppliers</mark>
+                together in the clothing industry to sustainably produce their
+                products from the source. Having a website that allows a
+                business to directly connect with a sustainable supplier makes
+                the process faster and easier for everyone involved.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row g-0">
+        <div lc-helper="background" class="col-lg-6 order-lg-2"
+          style="min-height: 45vh; background-size: cover; background-position: center; background-image: url('https://images.unsplash.com/photo-1567480503709-66518a660785?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1095&q=80');">
+        </div>
+
+        <div class="col-lg-6 order-lg-1 my-auto px-5 py-5">
+          <div class="lc-block">
+            <div editable="rich">
+              <h1>Undoubtedly feasible </h1>
+              <p class="lead">
+                As the world becomes more sustainability conscious, and
+                consumers become more aware of their carbon footprint, the
+                need for more sustainable solutions will grow. A need for an
+                integrated platform that is built on
+                <mark>sustainability being the core focus </mark>will become
+                important. The platform can be marketed to businesses and
+                business schools as a lot of aspiring entrepreneurs come out
+                of business schools and colleges. 
+              </p>
+              <ul class="list-group">
+
+                <li class="list-group-item list-group-item-success"><i class="fa-solid fa-arrow-right"></i>
+                  An easier process of finding sustainable suppliers means
+                  that businesses will be more inclined to find sustainable
+                  partners to get right into action.</li>
+                <li class="list-group-item list-group-item-primary"><i class="fa-solid fa-arrow-right"></i>
+                  There are vast possibilities to scale the platform to become
+                  an online growing sustainable marketplace.</li>
+                <li class="list-group-item list-group-item-info"><i class="fa-solid fa-arrow-right"></i>
+                  As more demand for sustainable products rise, the more
+                  others will be inclined to join in.</li>
+                <li class="list-group-item list-group-item-dark"><i class="fa-solid fa-arrow-right"></i>
+                  The platform can double as an education platform for
+                  learners
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <br />
+
+    <div class="d-flex justify-content-center">
+      <figure class="hover-card" style="--bg-image-url: url();">
+        <img class="hover-card__image" alt="Alt text here"
+          src="https://images.pexels.com/photos/2249290/pexels-photo-2249290.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260">
+        <figcaption  class="hover-card__info"> <a href="/stories">Sustainable Business Practices </a> 
+        </figcaption>
+
+      </figure>
+
+      </div>
+
     </div>
-    <br> <br>
   </div>
 </body>
 
