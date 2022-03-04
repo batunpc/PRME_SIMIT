@@ -16,6 +16,13 @@ router.get("/stories", (req, res) => {
   });
 });
 
+router.get("/producers", (req, res) => {
+  res.render("producers", {
+    layout: "main",
+    title: "Producers | Simit The Sustain",
+  });
+});
+
 router.get("/suppliers", (req, res) => {
   res.render("suppliers", {
     layout: "main",
