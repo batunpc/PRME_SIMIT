@@ -30,4 +30,11 @@ router.get("/about", (req, res) => {
   });
 });
 
+router.get("/our-vision", (req, res) => {
+  res.render("our-vision", {
+    layout: "main",
+    title: "Our Vision | Simit The Sustain",
+  });
+});
+
 module.exports = router;
